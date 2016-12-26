@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTColorPickerView_Example' do
+  pod 'WTColorPickerView', :path => '../'
+
+  target 'WTColorPickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
