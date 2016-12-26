@@ -1,0 +1,6 @@
+framework module WTColorPickerView {
+  umbrella header "WTColorPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

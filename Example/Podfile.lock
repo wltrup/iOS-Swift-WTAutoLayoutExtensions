@@ -1,0 +1,16 @@
+PODS:
+  - WTColorPickerView (0.1.0)
+
+DEPENDENCIES:
+  - WTColorPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  WTColorPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTColorPickerView: 5d60f54e03540b649c6794864b0c0c33ac53a484
+
+PODFILE CHECKSUM: 920067774da17ccf11efcf915511a86ec2a71515
+
+COCOAPODS: 1.2.0.beta.1
