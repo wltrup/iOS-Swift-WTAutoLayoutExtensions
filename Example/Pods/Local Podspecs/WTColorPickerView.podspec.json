@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of WTColorPickerView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/WTColorPickerView",
+  "homepage": "https://github.com/wltrup/WTColorPickerView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Wagner Truppel": "trupwl@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/WTColorPickerView.git",
+    "git": "https://github.com/wltrup/WTColorPickerView.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,6 +1,6 @@
 # WTColorPickerView
 
-[![CI Status](http://img.shields.io/travis/Wagner Truppel/WTColorPickerView.svg?style=flat)](https://travis-ci.org/Wagner Truppel/WTColorPickerView)
+[![CI Status](http://img.shields.io/travis/wltrup/WTColorPickerView.svg?style=flat)](https://travis-ci.org/wltrup/WTColorPickerView)
 [![Version](https://img.shields.io/cocoapods/v/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
 [![License](https://img.shields.io/cocoapods/l/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
 [![Platform](https://img.shields.io/cocoapods/p/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
