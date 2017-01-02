@@ -4,6 +4,8 @@
 [![Version](https://img.shields.io/cocoapods/v/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
 [![License](https://img.shields.io/cocoapods/l/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
 [![Platform](https://img.shields.io/cocoapods/p/WTColorPickerView.svg?style=flat)](http://cocoapods.org/pods/WTColorPickerView)
+[![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-8.2-blue.svg)](https://developer.apple.com/xcode)
 
 ## Example
 
