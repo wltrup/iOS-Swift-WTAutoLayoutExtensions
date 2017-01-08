@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12F36419C59CF96FBF3570DFE3440E68 /* Pods-WTColorPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87215DBAB3E92C6C509B268654F99A5D /* Pods-WTColorPickerView_Tests-dummy.m */; };
-		1EBEE2CDC9637149844B24DB6657F9BA /* WTColorPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E31BC9152FBF5B85676823E76BDC4 /* WTColorPickerView-dummy.m */; };
+		12F36419C59CF96FBF3570DFE3440E68 /* Pods-WTAutoLayoutExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87215DBAB3E92C6C509B268654F99A5D /* Pods-WTAutoLayoutExtensions_Tests-dummy.m */; };
+		1EBEE2CDC9637149844B24DB6657F9BA /* WTAutoLayoutExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E31BC9152FBF5B85676823E76BDC4 /* WTAutoLayoutExtensions-dummy.m */; };
 		6D5B01B58F8480EDE71A3239F853C341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		808D11B3E78BB8C64C0EA8D04D77408C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A3B28EAF1B8F45C362C4847D1AB812F0 /* WTColorPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D3A2A317A06D1C10C6950A9D527FF /* WTColorPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7BC1CF0E14432B1EA84AAEC798E1416 /* Pods-WTColorPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D11341D71DEBD683EC04F5085531E114 /* Pods-WTColorPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B28EAF1B8F45C362C4847D1AB812F0 /* WTAutoLayoutExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D3A2A317A06D1C10C6950A9D527FF /* WTAutoLayoutExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7BC1CF0E14432B1EA84AAEC798E1416 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D11341D71DEBD683EC04F5085531E114 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC9E61F90DC9CEDF0667AFD28C4ACDA1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */; };
-		B6305A6A8B3E0A36F319696BB7082C36 /* Pods-WTColorPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTColorPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52F323D1E0AFF7634FA49AF6F8C8D3D /* Pods-WTColorPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTColorPickerView_Example-dummy.m */; };
+		B6305A6A8B3E0A36F319696BB7082C36 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52F323D1E0AFF7634FA49AF6F8C8D3D /* Pods-WTAutoLayoutExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTAutoLayoutExtensions_Example-dummy.m */; };
 		FFAEDC05774A3B121E9D95A8DCB1C658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,43 +25,43 @@
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C65E310C59FD2D6E7DEDAEEFC7B3C1D2;
-			remoteInfo = WTColorPickerView;
+			remoteInfo = WTAutoLayoutExtensions;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026D3A2A317A06D1C10C6950A9D527FF /* WTColorPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTColorPickerView-umbrella.h"; sourceTree = "<group>"; };
-		15CC6AAB9665BD02A0E9E2752D892193 /* Pods-WTColorPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTColorPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		269E31BC9152FBF5B85676823E76BDC4 /* WTColorPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTColorPickerView-dummy.m"; sourceTree = "<group>"; };
-		2C35ACA07D7D886C59E04D8EE11F527B /* Pods-WTColorPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTColorPickerView_Tests.modulemap"; sourceTree = "<group>"; };
+		026D3A2A317A06D1C10C6950A9D527FF /* WTAutoLayoutExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTAutoLayoutExtensions-umbrella.h"; sourceTree = "<group>"; };
+		15CC6AAB9665BD02A0E9E2752D892193 /* Pods-WTAutoLayoutExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTAutoLayoutExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
+		269E31BC9152FBF5B85676823E76BDC4 /* WTAutoLayoutExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTAutoLayoutExtensions-dummy.m"; sourceTree = "<group>"; };
+		2C35ACA07D7D886C59E04D8EE11F527B /* Pods-WTAutoLayoutExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTAutoLayoutExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		2FAA0623497AC0EF2EA9461F9A932F47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305B11C50AFC7B53821AFAD1DABCC160 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTColorPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTColorPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTColorPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTColorPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		561536CC6BE5C49634D3B4D71EC133D3 /* Pods-WTColorPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTColorPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTColorPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTColorPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B872ECBF60033E7E84D201A951DBB85 /* Pods-WTColorPickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTColorPickerView_Example-resources.sh"; sourceTree = "<group>"; };
+		3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTAutoLayoutExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
+		491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTAutoLayoutExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTAutoLayoutExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561536CC6BE5C49634D3B4D71EC133D3 /* Pods-WTAutoLayoutExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTAutoLayoutExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTAutoLayoutExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTAutoLayoutExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B872ECBF60033E7E84D201A951DBB85 /* Pods-WTAutoLayoutExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTAutoLayoutExtensions_Example-resources.sh"; sourceTree = "<group>"; };
 		6D7183FAD48E62D7DDDBA2ED28159B37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		747AE343E80C947EA4B7E9A9DD55C1A0 /* WTColorPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTColorPickerView-prefix.pch"; sourceTree = "<group>"; };
-		77D51C389B06971FEAF6E2DF04C3E315 /* Pods-WTColorPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTColorPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7BF7D080B795E049D1F07CC319650A0F /* Pods-WTColorPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTColorPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTColorPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTColorPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		85FCEA3664C11F78D052B85B9AC85E16 /* Pods-WTColorPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTColorPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		87215DBAB3E92C6C509B268654F99A5D /* Pods-WTColorPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTColorPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
-		902D40C30E7F3D11AA7029DD58BA49EB /* Pods-WTColorPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTColorPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		747AE343E80C947EA4B7E9A9DD55C1A0 /* WTAutoLayoutExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTAutoLayoutExtensions-prefix.pch"; sourceTree = "<group>"; };
+		77D51C389B06971FEAF6E2DF04C3E315 /* Pods-WTAutoLayoutExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTAutoLayoutExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BF7D080B795E049D1F07CC319650A0F /* Pods-WTAutoLayoutExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTAutoLayoutExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTAutoLayoutExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTAutoLayoutExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		85FCEA3664C11F78D052B85B9AC85E16 /* Pods-WTAutoLayoutExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTAutoLayoutExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		87215DBAB3E92C6C509B268654F99A5D /* Pods-WTAutoLayoutExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTAutoLayoutExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
+		902D40C30E7F3D11AA7029DD58BA49EB /* Pods-WTAutoLayoutExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTAutoLayoutExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AA6E83845EC3EBC927821A264118469 /* Pods-WTColorPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTColorPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A7242AFA4D295BD87C2E9996538918E8 /* WTColorPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTColorPickerView.xcconfig; sourceTree = "<group>"; };
-		A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTColorPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTColorPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC3DBB05D6C321C2AB822FC1753F0576 /* Pods-WTColorPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTColorPickerView_Example.modulemap"; sourceTree = "<group>"; };
+		9AA6E83845EC3EBC927821A264118469 /* Pods-WTAutoLayoutExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTAutoLayoutExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7242AFA4D295BD87C2E9996538918E8 /* WTAutoLayoutExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTAutoLayoutExtensions.xcconfig; sourceTree = "<group>"; };
+		A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTAutoLayoutExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTAutoLayoutExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3DBB05D6C321C2AB822FC1753F0576 /* Pods-WTAutoLayoutExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTAutoLayoutExtensions_Example.modulemap"; sourceTree = "<group>"; };
 		BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTColorPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTColorPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C6C7D0424EF01EAF8F2C27692EE910B7 /* Pods-WTColorPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTColorPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTAutoLayoutExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTAutoLayoutExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C7D0424EF01EAF8F2C27692EE910B7 /* Pods-WTAutoLayoutExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTAutoLayoutExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC5E19B48A3BD301DF2B3FC09FB50A6F /* Pods-WTColorPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTColorPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
-		D11341D71DEBD683EC04F5085531E114 /* Pods-WTColorPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTColorPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E2B40A3B57204C475792A8875B0893C0 /* WTColorPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTColorPickerView.modulemap; sourceTree = "<group>"; };
-		F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTColorPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTColorPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		CC5E19B48A3BD301DF2B3FC09FB50A6F /* Pods-WTAutoLayoutExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTAutoLayoutExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
+		D11341D71DEBD683EC04F5085531E114 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTAutoLayoutExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2B40A3B57204C475792A8875B0893C0 /* WTAutoLayoutExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WTAutoLayoutExtensions.modulemap; sourceTree = "<group>"; };
+		F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTAutoLayoutExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTAutoLayoutExtensions_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,61 +95,61 @@
 		1F0E66497861DBF69072A85C2E54A54A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTColorPickerView_Example.framework */,
-				491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTColorPickerView_Tests.framework */,
-				A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTColorPickerView.framework */,
+				5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTAutoLayoutExtensions_Example.framework */,
+				491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTAutoLayoutExtensions_Tests.framework */,
+				A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTAutoLayoutExtensions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52963D87E2BA4311A90486E1437036E7 /* Pods-WTColorPickerView_Example */ = {
+		52963D87E2BA4311A90486E1437036E7 /* Pods-WTAutoLayoutExtensions_Example */ = {
 			isa = PBXGroup;
 			children = (
 				6D7183FAD48E62D7DDDBA2ED28159B37 /* Info.plist */,
-				AC3DBB05D6C321C2AB822FC1753F0576 /* Pods-WTColorPickerView_Example.modulemap */,
-				561536CC6BE5C49634D3B4D71EC133D3 /* Pods-WTColorPickerView_Example-acknowledgements.markdown */,
-				77D51C389B06971FEAF6E2DF04C3E315 /* Pods-WTColorPickerView_Example-acknowledgements.plist */,
-				F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTColorPickerView_Example-dummy.m */,
-				15CC6AAB9665BD02A0E9E2752D892193 /* Pods-WTColorPickerView_Example-frameworks.sh */,
-				6B872ECBF60033E7E84D201A951DBB85 /* Pods-WTColorPickerView_Example-resources.sh */,
-				3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTColorPickerView_Example-umbrella.h */,
-				9AA6E83845EC3EBC927821A264118469 /* Pods-WTColorPickerView_Example.debug.xcconfig */,
-				7BF7D080B795E049D1F07CC319650A0F /* Pods-WTColorPickerView_Example.release.xcconfig */,
+				AC3DBB05D6C321C2AB822FC1753F0576 /* Pods-WTAutoLayoutExtensions_Example.modulemap */,
+				561536CC6BE5C49634D3B4D71EC133D3 /* Pods-WTAutoLayoutExtensions_Example-acknowledgements.markdown */,
+				77D51C389B06971FEAF6E2DF04C3E315 /* Pods-WTAutoLayoutExtensions_Example-acknowledgements.plist */,
+				F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTAutoLayoutExtensions_Example-dummy.m */,
+				15CC6AAB9665BD02A0E9E2752D892193 /* Pods-WTAutoLayoutExtensions_Example-frameworks.sh */,
+				6B872ECBF60033E7E84D201A951DBB85 /* Pods-WTAutoLayoutExtensions_Example-resources.sh */,
+				3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h */,
+				9AA6E83845EC3EBC927821A264118469 /* Pods-WTAutoLayoutExtensions_Example.debug.xcconfig */,
+				7BF7D080B795E049D1F07CC319650A0F /* Pods-WTAutoLayoutExtensions_Example.release.xcconfig */,
 			);
-			name = "Pods-WTColorPickerView_Example";
-			path = "Target Support Files/Pods-WTColorPickerView_Example";
+			name = "Pods-WTAutoLayoutExtensions_Example";
+			path = "Target Support Files/Pods-WTAutoLayoutExtensions_Example";
 			sourceTree = "<group>";
 		};
 		64830F588635CE578654F98DECD0EB2E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				305B11C50AFC7B53821AFAD1DABCC160 /* Info.plist */,
-				E2B40A3B57204C475792A8875B0893C0 /* WTColorPickerView.modulemap */,
-				A7242AFA4D295BD87C2E9996538918E8 /* WTColorPickerView.xcconfig */,
-				269E31BC9152FBF5B85676823E76BDC4 /* WTColorPickerView-dummy.m */,
-				747AE343E80C947EA4B7E9A9DD55C1A0 /* WTColorPickerView-prefix.pch */,
-				026D3A2A317A06D1C10C6950A9D527FF /* WTColorPickerView-umbrella.h */,
+				E2B40A3B57204C475792A8875B0893C0 /* WTAutoLayoutExtensions.modulemap */,
+				A7242AFA4D295BD87C2E9996538918E8 /* WTAutoLayoutExtensions.xcconfig */,
+				269E31BC9152FBF5B85676823E76BDC4 /* WTAutoLayoutExtensions-dummy.m */,
+				747AE343E80C947EA4B7E9A9DD55C1A0 /* WTAutoLayoutExtensions-prefix.pch */,
+				026D3A2A317A06D1C10C6950A9D527FF /* WTAutoLayoutExtensions-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WTColorPickerView";
+			path = "Example/Pods/Target Support Files/WTAutoLayoutExtensions";
 			sourceTree = "<group>";
 		};
-		72411B456B8ECDA553E234FDA9F21A32 /* Pods-WTColorPickerView_Tests */ = {
+		72411B456B8ECDA553E234FDA9F21A32 /* Pods-WTAutoLayoutExtensions_Tests */ = {
 			isa = PBXGroup;
 			children = (
 				2FAA0623497AC0EF2EA9461F9A932F47 /* Info.plist */,
-				2C35ACA07D7D886C59E04D8EE11F527B /* Pods-WTColorPickerView_Tests.modulemap */,
-				C6C7D0424EF01EAF8F2C27692EE910B7 /* Pods-WTColorPickerView_Tests-acknowledgements.markdown */,
-				902D40C30E7F3D11AA7029DD58BA49EB /* Pods-WTColorPickerView_Tests-acknowledgements.plist */,
-				87215DBAB3E92C6C509B268654F99A5D /* Pods-WTColorPickerView_Tests-dummy.m */,
-				85FCEA3664C11F78D052B85B9AC85E16 /* Pods-WTColorPickerView_Tests-frameworks.sh */,
-				CC5E19B48A3BD301DF2B3FC09FB50A6F /* Pods-WTColorPickerView_Tests-resources.sh */,
-				D11341D71DEBD683EC04F5085531E114 /* Pods-WTColorPickerView_Tests-umbrella.h */,
-				7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTColorPickerView_Tests.debug.xcconfig */,
-				BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTColorPickerView_Tests.release.xcconfig */,
+				2C35ACA07D7D886C59E04D8EE11F527B /* Pods-WTAutoLayoutExtensions_Tests.modulemap */,
+				C6C7D0424EF01EAF8F2C27692EE910B7 /* Pods-WTAutoLayoutExtensions_Tests-acknowledgements.markdown */,
+				902D40C30E7F3D11AA7029DD58BA49EB /* Pods-WTAutoLayoutExtensions_Tests-acknowledgements.plist */,
+				87215DBAB3E92C6C509B268654F99A5D /* Pods-WTAutoLayoutExtensions_Tests-dummy.m */,
+				85FCEA3664C11F78D052B85B9AC85E16 /* Pods-WTAutoLayoutExtensions_Tests-frameworks.sh */,
+				CC5E19B48A3BD301DF2B3FC09FB50A6F /* Pods-WTAutoLayoutExtensions_Tests-resources.sh */,
+				D11341D71DEBD683EC04F5085531E114 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h */,
+				7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTAutoLayoutExtensions_Tests.debug.xcconfig */,
+				BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTAutoLayoutExtensions_Tests.release.xcconfig */,
 			);
-			name = "Pods-WTColorPickerView_Tests";
-			path = "Target Support Files/Pods-WTColorPickerView_Tests";
+			name = "Pods-WTAutoLayoutExtensions_Tests";
+			path = "Target Support Files/Pods-WTAutoLayoutExtensions_Tests";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -163,8 +163,8 @@
 		762F6E413E992178B97AD2A00ED5F78A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				52963D87E2BA4311A90486E1437036E7 /* Pods-WTColorPickerView_Example */,
-				72411B456B8ECDA553E234FDA9F21A32 /* Pods-WTColorPickerView_Tests */,
+				52963D87E2BA4311A90486E1437036E7 /* Pods-WTAutoLayoutExtensions_Example */,
+				72411B456B8ECDA553E234FDA9F21A32 /* Pods-WTAutoLayoutExtensions_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -188,18 +188,18 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		9132F9FD3808B5A558E5B53CF1BA9D85 /* WTColorPickerView */ = {
+		9132F9FD3808B5A558E5B53CF1BA9D85 /* WTAutoLayoutExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				83DE6257B751FB988B880F61681D0BCB /* Classes */,
 			);
-			path = WTColorPickerView;
+			path = WTAutoLayoutExtensions;
 			sourceTree = "<group>";
 		};
 		AC55DD8F11AB71F2F3A434317D5BA73D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAB20979ACB71E5722F5397C9040D428 /* WTColorPickerView */,
+				EAB20979ACB71E5722F5397C9040D428 /* WTAutoLayoutExtensions */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -212,13 +212,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAB20979ACB71E5722F5397C9040D428 /* WTColorPickerView */ = {
+		EAB20979ACB71E5722F5397C9040D428 /* WTAutoLayoutExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				64830F588635CE578654F98DECD0EB2E /* Support Files */,
-				9132F9FD3808B5A558E5B53CF1BA9D85 /* WTColorPickerView */,
+				9132F9FD3808B5A558E5B53CF1BA9D85 /* WTAutoLayoutExtensions */,
 			);
-			name = WTColorPickerView;
+			name = WTAutoLayoutExtensions;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -229,7 +229,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B28EAF1B8F45C362C4847D1AB812F0 /* WTColorPickerView-umbrella.h in Headers */,
+				A3B28EAF1B8F45C362C4847D1AB812F0 /* WTAutoLayoutExtensions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BC1CF0E14432B1EA84AAEC798E1416 /* Pods-WTColorPickerView_Tests-umbrella.h in Headers */,
+				A7BC1CF0E14432B1EA84AAEC798E1416 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,16 +245,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6305A6A8B3E0A36F319696BB7082C36 /* Pods-WTColorPickerView_Example-umbrella.h in Headers */,
+				B6305A6A8B3E0A36F319696BB7082C36 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8A86FC4378847D1BE2A3346631989013 /* Pods-WTColorPickerView_Example */ = {
+		8A86FC4378847D1BE2A3346631989013 /* Pods-WTAutoLayoutExtensions_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77CEB147FCFB09E925C3B6E493DCD051 /* Build configuration list for PBXNativeTarget "Pods-WTColorPickerView_Example" */;
+			buildConfigurationList = 77CEB147FCFB09E925C3B6E493DCD051 /* Build configuration list for PBXNativeTarget "Pods-WTAutoLayoutExtensions_Example" */;
 			buildPhases = (
 				D12D739BF9BC03228A6DB2B52ECA2A94 /* Sources */,
 				D6DA152780FE01C9735EA53D06890C9E /* Frameworks */,
@@ -265,14 +265,14 @@
 			dependencies = (
 				54B3556DEBF2913FF7096C71425F18EA /* PBXTargetDependency */,
 			);
-			name = "Pods-WTColorPickerView_Example";
-			productName = "Pods-WTColorPickerView_Example";
-			productReference = 5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTColorPickerView_Example.framework */;
+			name = "Pods-WTAutoLayoutExtensions_Example";
+			productName = "Pods-WTAutoLayoutExtensions_Example";
+			productReference = 5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTAutoLayoutExtensions_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTColorPickerView */ = {
+		C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTAutoLayoutExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EB986B11DEBE3F4FB19E20A64C63655 /* Build configuration list for PBXNativeTarget "WTColorPickerView" */;
+			buildConfigurationList = 0EB986B11DEBE3F4FB19E20A64C63655 /* Build configuration list for PBXNativeTarget "WTAutoLayoutExtensions" */;
 			buildPhases = (
 				2977082F71E8F9525D04546AF6409E3A /* Sources */,
 				610BCBB94F640675B7479C659D301C1C /* Frameworks */,
@@ -282,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = WTColorPickerView;
-			productName = WTColorPickerView;
-			productReference = A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTColorPickerView.framework */;
+			name = WTAutoLayoutExtensions;
+			productName = WTAutoLayoutExtensions;
+			productReference = A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTAutoLayoutExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9A3B169D4B1C8C3F0C2332DE5EF44CE /* Pods-WTColorPickerView_Tests */ = {
+		F9A3B169D4B1C8C3F0C2332DE5EF44CE /* Pods-WTAutoLayoutExtensions_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 795FB4AC4B01B3984CC2694CDC3CE5DE /* Build configuration list for PBXNativeTarget "Pods-WTColorPickerView_Tests" */;
+			buildConfigurationList = 795FB4AC4B01B3984CC2694CDC3CE5DE /* Build configuration list for PBXNativeTarget "Pods-WTAutoLayoutExtensions_Tests" */;
 			buildPhases = (
 				A685FD3E5AEF14593C596756DE7A3C5E /* Sources */,
 				E503F36F73570FBB49560A8826E2EFF3 /* Frameworks */,
@@ -299,9 +299,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pods-WTColorPickerView_Tests";
-			productName = "Pods-WTColorPickerView_Tests";
-			productReference = 491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTColorPickerView_Tests.framework */;
+			name = "Pods-WTAutoLayoutExtensions_Tests";
+			productName = "Pods-WTAutoLayoutExtensions_Tests";
+			productReference = 491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTAutoLayoutExtensions_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,9 +336,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A86FC4378847D1BE2A3346631989013 /* Pods-WTColorPickerView_Example */,
-				F9A3B169D4B1C8C3F0C2332DE5EF44CE /* Pods-WTColorPickerView_Tests */,
-				C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTColorPickerView */,
+				8A86FC4378847D1BE2A3346631989013 /* Pods-WTAutoLayoutExtensions_Example */,
+				F9A3B169D4B1C8C3F0C2332DE5EF44CE /* Pods-WTAutoLayoutExtensions_Tests */,
+				C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTAutoLayoutExtensions */,
 			);
 		};
 /* End PBXProject section */
@@ -349,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9E61F90DC9CEDF0667AFD28C4ACDA1 /* ReplaceMe.swift in Sources */,
-				1EBEE2CDC9637149844B24DB6657F9BA /* WTColorPickerView-dummy.m in Sources */,
+				1EBEE2CDC9637149844B24DB6657F9BA /* WTAutoLayoutExtensions-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F36419C59CF96FBF3570DFE3440E68 /* Pods-WTColorPickerView_Tests-dummy.m in Sources */,
+				12F36419C59CF96FBF3570DFE3440E68 /* Pods-WTAutoLayoutExtensions_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52F323D1E0AFF7634FA49AF6F8C8D3D /* Pods-WTColorPickerView_Example-dummy.m in Sources */,
+				C52F323D1E0AFF7634FA49AF6F8C8D3D /* Pods-WTAutoLayoutExtensions_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +374,8 @@
 /* Begin PBXTargetDependency section */
 		54B3556DEBF2913FF7096C71425F18EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WTColorPickerView;
-			target = C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTColorPickerView */;
+			name = WTAutoLayoutExtensions;
+			target = C65E310C59FD2D6E7DEDAEEFC7B3C1D2 /* WTAutoLayoutExtensions */;
 			targetProxy = 2D6F4B8CD9EF7FA3D75878BA8C89BA57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -383,7 +383,7 @@
 /* Begin XCBuildConfiguration section */
 		0E91C510FC176BC692B1CAB9C3EEFA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AA6E83845EC3EBC927821A264118469 /* Pods-WTColorPickerView_Example.debug.xcconfig */;
+			baseConfigurationReference = 9AA6E83845EC3EBC927821A264118469 /* Pods-WTAutoLayoutExtensions_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,18 +398,18 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WTColorPickerView_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTColorPickerView_Example/Pods-WTColorPickerView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Example/Pods-WTAutoLayoutExtensions_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WTColorPickerView_Example;
+				PRODUCT_NAME = Pods_WTAutoLayoutExtensions_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -423,7 +423,7 @@
 		};
 		1CAB02135A3AD0296DD7A9FDFDAF6904 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF7D080B795E049D1F07CC319650A0F /* Pods-WTColorPickerView_Example.release.xcconfig */;
+			baseConfigurationReference = 7BF7D080B795E049D1F07CC319650A0F /* Pods-WTAutoLayoutExtensions_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -438,18 +438,18 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WTColorPickerView_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTColorPickerView_Example/Pods-WTColorPickerView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Example/Pods-WTAutoLayoutExtensions_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WTColorPickerView_Example;
+				PRODUCT_NAME = Pods_WTAutoLayoutExtensions_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -462,7 +462,7 @@
 		};
 		29A5669F28410501CAB192951C5E9984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7242AFA4D295BD87C2E9996538918E8 /* WTColorPickerView.xcconfig */;
+			baseConfigurationReference = A7242AFA4D295BD87C2E9996538918E8 /* WTAutoLayoutExtensions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -475,16 +475,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WTColorPickerView/WTColorPickerView-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/WTAutoLayoutExtensions/WTAutoLayoutExtensions-prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/WTColorPickerView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/WTAutoLayoutExtensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WTColorPickerView/WTColorPickerView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/WTAutoLayoutExtensions/WTAutoLayoutExtensions.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WTColorPickerView;
+				PRODUCT_NAME = WTAutoLayoutExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -498,7 +498,7 @@
 		};
 		6EB36958AE2A58847AB60F131A876C33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7242AFA4D295BD87C2E9996538918E8 /* WTColorPickerView.xcconfig */;
+			baseConfigurationReference = A7242AFA4D295BD87C2E9996538918E8 /* WTAutoLayoutExtensions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -511,16 +511,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WTColorPickerView/WTColorPickerView-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/WTAutoLayoutExtensions/WTAutoLayoutExtensions-prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/WTColorPickerView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/WTAutoLayoutExtensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WTColorPickerView/WTColorPickerView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/WTAutoLayoutExtensions/WTAutoLayoutExtensions.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WTColorPickerView;
+				PRODUCT_NAME = WTAutoLayoutExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -623,7 +623,7 @@
 		};
 		B7500BE63EC15B1873CEABF3CFD01896 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTColorPickerView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7ED89438DB0A112C418E10CEED9BBEAD /* Pods-WTAutoLayoutExtensions_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -638,18 +638,18 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WTColorPickerView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTColorPickerView_Tests/Pods-WTColorPickerView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Tests/Pods-WTAutoLayoutExtensions_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WTColorPickerView_Tests;
+				PRODUCT_NAME = Pods_WTAutoLayoutExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -662,7 +662,7 @@
 		};
 		FB1AB05C5C232D3870D75C5C24686FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTColorPickerView_Tests.release.xcconfig */;
+			baseConfigurationReference = BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTAutoLayoutExtensions_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -677,18 +677,18 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WTColorPickerView_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTColorPickerView_Tests/Pods-WTColorPickerView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WTAutoLayoutExtensions_Tests/Pods-WTAutoLayoutExtensions_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WTColorPickerView_Tests;
+				PRODUCT_NAME = Pods_WTAutoLayoutExtensions_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -702,7 +702,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EB986B11DEBE3F4FB19E20A64C63655 /* Build configuration list for PBXNativeTarget "WTColorPickerView" */ = {
+		0EB986B11DEBE3F4FB19E20A64C63655 /* Build configuration list for PBXNativeTarget "WTAutoLayoutExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29A5669F28410501CAB192951C5E9984 /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77CEB147FCFB09E925C3B6E493DCD051 /* Build configuration list for PBXNativeTarget "Pods-WTColorPickerView_Example" */ = {
+		77CEB147FCFB09E925C3B6E493DCD051 /* Build configuration list for PBXNativeTarget "Pods-WTAutoLayoutExtensions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E91C510FC176BC692B1CAB9C3EEFA93 /* Debug */,
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		795FB4AC4B01B3984CC2694CDC3CE5DE /* Build configuration list for PBXNativeTarget "Pods-WTColorPickerView_Tests" */ = {
+		795FB4AC4B01B3984CC2694CDC3CE5DE /* Build configuration list for PBXNativeTarget "Pods-WTAutoLayoutExtensions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7500BE63EC15B1873CEABF3CFD01896 /* Debug */,

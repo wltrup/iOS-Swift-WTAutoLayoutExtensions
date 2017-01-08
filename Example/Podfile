@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'WTColorPickerView_Example' do
-  pod 'WTColorPickerView', :path => '../'
+target 'WTAutoLayoutExtensions_Example' do
+  pod 'WTAutoLayoutExtensions', :path => '../'
 
-  target 'WTColorPickerView_Tests' do
+  target 'WTAutoLayoutExtensions_Tests' do
     inherit! :search_paths
 
     

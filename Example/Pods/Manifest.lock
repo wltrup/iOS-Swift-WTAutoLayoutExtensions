@@ -1,15 +1,15 @@
 PODS:
-  - WTColorPickerView (0.1.0)
+  - WTAutoLayoutExtensions (0.1.0)
 
 DEPENDENCIES:
-  - WTColorPickerView (from `../`)
+  - WTAutoLayoutExtensions (from `../`)
 
 EXTERNAL SOURCES:
-  WTColorPickerView:
+  WTAutoLayoutExtensions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTColorPickerView: 5d60f54e03540b649c6794864b0c0c33ac53a484
+  WTAutoLayoutExtensions: 5d60f54e03540b649c6794864b0c0c33ac53a484
 
 PODFILE CHECKSUM: 920067774da17ccf11efcf915511a86ec2a71515
 

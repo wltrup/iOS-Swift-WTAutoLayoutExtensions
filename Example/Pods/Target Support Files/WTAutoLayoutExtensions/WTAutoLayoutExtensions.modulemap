@@ -1,0 +1,6 @@
+framework module WTAutoLayoutExtensions {
+  umbrella header "WTAutoLayoutExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

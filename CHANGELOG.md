@@ -1,4 +1,4 @@
-# WT__TEMPLATE__
+# WTAutoLayoutExtensions
 
 ## 1.0.0
 
