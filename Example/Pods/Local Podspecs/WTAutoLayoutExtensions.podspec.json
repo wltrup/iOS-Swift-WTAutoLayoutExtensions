@@ -1,8 +1,8 @@
 {
   "name": "WTAutoLayoutExtensions",
-  "version": "0.1.0",
-  "summary": "A short description of WTAutoLayoutExtensions.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "A set of extensions to UIView and UILayoutGuide to make it\nsimpler and more natural to use auto-layout.",
+  "description": "WTAutoLayoutExtensions adds extensions to UIView and UILayoutGuide to make it\nsimpler and more natural to use layout guides, layout anchors, and the rest of\nthe auto-layout machinery, with a consistent API and very little code.",
   "homepage": "https://github.com/wltrup/WTAutoLayoutExtensions",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/wltrup/WTAutoLayoutExtensions.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "WTAutoLayoutExtensions/Classes/**/*"
+  "source_files": "WTAutoLayoutExtensions/Classes/**/*",
+  "frameworks": "UIKit"
 }
