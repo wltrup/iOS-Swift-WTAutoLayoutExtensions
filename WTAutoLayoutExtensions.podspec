@@ -11,10 +11,10 @@ simpler and more natural to use auto-layout.'
     the auto-layout machinery, with a consistent API and very little code.
 DESC
 
-  s.homepage         = 'https://github.com/wltrup/WTAutoLayoutExtensions'
+  s.homepage         = 'https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Wagner Truppel' => 'trupwl@gmail.com' }
-  s.source           = { :git => 'https://github.com/wltrup/WTAutoLayoutExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'WTAutoLayoutExtensions/Classes/**/*'
