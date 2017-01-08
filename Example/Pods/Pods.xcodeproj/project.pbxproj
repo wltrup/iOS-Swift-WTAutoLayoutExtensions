@@ -14,7 +14,6 @@
 		808D11B3E78BB8C64C0EA8D04D77408C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A3B28EAF1B8F45C362C4847D1AB812F0 /* WTAutoLayoutExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D3A2A317A06D1C10C6950A9D527FF /* WTAutoLayoutExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7BC1CF0E14432B1EA84AAEC798E1416 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D11341D71DEBD683EC04F5085531E114 /* Pods-WTAutoLayoutExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC9E61F90DC9CEDF0667AFD28C4ACDA1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */; };
 		B6305A6A8B3E0A36F319696BB7082C36 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C52F323D1E0AFF7634FA49AF6F8C8D3D /* Pods-WTAutoLayoutExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC11C878E7A9143E8EEDD998AF0F /* Pods-WTAutoLayoutExtensions_Example-dummy.m */; };
 		FFAEDC05774A3B121E9D95A8DCB1C658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -56,7 +55,6 @@
 		A7242AFA4D295BD87C2E9996538918E8 /* WTAutoLayoutExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTAutoLayoutExtensions.xcconfig; sourceTree = "<group>"; };
 		A9CBF26D5B95E7CFB82BDF20603C15F4 /* WTAutoLayoutExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTAutoLayoutExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3DBB05D6C321C2AB822FC1753F0576 /* Pods-WTAutoLayoutExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WTAutoLayoutExtensions_Example.modulemap"; sourceTree = "<group>"; };
-		BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		BF397A8057DD87E4ED219D8F2B4188EE /* Pods-WTAutoLayoutExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTAutoLayoutExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6C7D0424EF01EAF8F2C27692EE910B7 /* Pods-WTAutoLayoutExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTAutoLayoutExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,7 +183,6 @@
 		83DE6257B751FB988B880F61681D0BCB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */,
 				3B350C741E21E99600129AF0 /* WTAutoLayoutExtensions.swift */,
 			);
 			path = Classes;
@@ -351,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9E61F90DC9CEDF0667AFD28C4ACDA1 /* ReplaceMe.swift in Sources */,
 				1EBEE2CDC9637149844B24DB6657F9BA /* WTAutoLayoutExtensions-dummy.m in Sources */,
 				3B350C751E21E99600129AF0 /* WTAutoLayoutExtensions.swift in Sources */,
 			);
