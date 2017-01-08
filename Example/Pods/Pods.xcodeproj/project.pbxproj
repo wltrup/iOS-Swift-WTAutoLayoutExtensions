@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12F36419C59CF96FBF3570DFE3440E68 /* Pods-WTAutoLayoutExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87215DBAB3E92C6C509B268654F99A5D /* Pods-WTAutoLayoutExtensions_Tests-dummy.m */; };
 		1EBEE2CDC9637149844B24DB6657F9BA /* WTAutoLayoutExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E31BC9152FBF5B85676823E76BDC4 /* WTAutoLayoutExtensions-dummy.m */; };
+		3B350C751E21E99600129AF0 /* WTAutoLayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B350C741E21E99600129AF0 /* WTAutoLayoutExtensions.swift */; };
 		6D5B01B58F8480EDE71A3239F853C341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		808D11B3E78BB8C64C0EA8D04D77408C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A3B28EAF1B8F45C362C4847D1AB812F0 /* WTAutoLayoutExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026D3A2A317A06D1C10C6950A9D527FF /* WTAutoLayoutExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +38,7 @@
 		2FAA0623497AC0EF2EA9461F9A932F47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305B11C50AFC7B53821AFAD1DABCC160 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A5649FFC3A2BCE6CE8790C5D77D6732 /* Pods-WTAutoLayoutExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTAutoLayoutExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B350C741E21E99600129AF0 /* WTAutoLayoutExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTAutoLayoutExtensions.swift; sourceTree = "<group>"; };
 		491C9C9D8CC0B303B6325774448B38F1 /* Pods_WTAutoLayoutExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTAutoLayoutExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		561536CC6BE5C49634D3B4D71EC133D3 /* Pods-WTAutoLayoutExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTAutoLayoutExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5EE8F1BD6E4D13BAD3BE8DF414727E70 /* Pods_WTAutoLayoutExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTAutoLayoutExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				BC084755FA736D56D72A69B9E4D63D28 /* ReplaceMe.swift */,
+				3B350C741E21E99600129AF0 /* WTAutoLayoutExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			files = (
 				AC9E61F90DC9CEDF0667AFD28C4ACDA1 /* ReplaceMe.swift in Sources */,
 				1EBEE2CDC9637149844B24DB6657F9BA /* WTAutoLayoutExtensions-dummy.m in Sources */,
+				3B350C751E21E99600129AF0 /* WTAutoLayoutExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
