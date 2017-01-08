@@ -1,11 +1,11 @@
 # WTAutoLayoutExtensions
 
-[![CI Status](http://img.shields.io/travis/wltrup/WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/wltrup/WTAutoLayoutExtensions)
+[![CI Status](http://img.shields.io/travis/wltrup/iOS-Swift-WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/iOS-Swift-wltrup/WTAutoLayoutExtensions)
 [![Version](https://img.shields.io/cocoapods/v/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTAutoLayoutExtensions.svg?style=flat)](https://developer.apple.com)
 [![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-8.2-blue.svg)](https://developer.apple.com/xcode)
-[![License](https://img.shields.io/cocoapods/l/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensionsblob/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/WTAutoLayoutExtensions.svg?style=flat)](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions/blob/master/LICENSE)
 
 ## What
 

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTAutoLayoutExtensions'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A set of extensions to UIView and UILayoutGuide to make it
 simpler and more natural to use auto-layout.'
 
