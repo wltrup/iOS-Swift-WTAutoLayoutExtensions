@@ -1,9 +1,6 @@
 # WTAutoLayoutExtensions
 
 [![CI Status](http://img.shields.io/travis/wltrup/WTAutoLayoutExtensions.svg?style=flat)](https://travis-ci.org/wltrup/WTAutoLayoutExtensions)
-#[![Codecov](https://codecov.io/gh/wltrup/...)](https://codecov.io/...)
-#[![codebeat](https://codebeat.co/badges/...)](https://codebeat.co/projects/github-com-...)
-#[![Carthage Compatible](https://img.shields.io/badge/...)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/WTAutoLayoutExtensions.svg?style=flat)](http://cocoapods.org/pods/WTAutoLayoutExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/WTAutoLayoutExtensions.svg?style=flat)](https://developer.apple.com)
 [![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
@@ -216,19 +213,12 @@ As you can see, and I hope will agree, the method invocations at the call site r
   autocompletion will narrow down the list rather nicely once you've typed `wtc`
 - Some methods support multipliers and/or constants and, when they do, their places in
   the method signatures are very natural, such as
-  ```swift
-          UIView.wtConstraint(on: .height, u1, .equal, u2, times: 1.5, plus: 20)
-  ```
+  `UIView.wtConstraint(on: .height, u1, .equal, u2, times: 1.5, plus: 20)`
 - Methods also support priorities and active/inactive states
 - All defaults have sensible values
 - You're not forced to use `.equal`. You can equally as easily write something like
-  ```swift
-          UIView.wtConstraint(on: .width, u1, .greaterThanOrEqual, u2, times: 1.5, plus: 20)
-  ```
-  or
-  ```swift
-          UIView.wtConstraint(on: .width, u1, .lessThanOrEqual, u2)
-  ```
+  `UIView.wtConstraint(on: .width, u1, .greaterThanOrEqual, u2, times: 1.5, plus: 20)`
+  or `UIView.wtConstraint(on: .width, u1, .lessThanOrEqual, u2)`
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
