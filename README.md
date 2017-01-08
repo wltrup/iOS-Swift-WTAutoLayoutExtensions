@@ -222,6 +222,8 @@ As you can see, and I hope will agree, the method invocations at the call site r
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![example](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions/blob/master/example.gif)
+
 ## Changelog
 
 Changes to **WTAutoLayoutExtensions** are listed
