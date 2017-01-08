@@ -7,6 +7,10 @@
 [![Xcode](https://img.shields.io/badge/Xcode-8.2-blue.svg)](https://developer.apple.com/xcode)
 [![License](https://img.shields.io/cocoapods/l/WTAutoLayoutExtensions.svg?style=flat)](https://github.com/wltrup/iOS-Swift-WTAutoLayoutExtensions/blob/master/LICENSE)
 
+## Travis CI
+
+Building on Travis is currently failing even though everything builds fine locally. I will continue to try and figure out what's going on at a later time. For now, it is as it is.
+
 ## What
 
 **WTAutoLayoutExtensions** adds extensions to `UIView` and `UILayoutGuide` to make it simpler
