@@ -1,5 +1,5 @@
 PODS:
-  - WTAutoLayoutExtensions (1.0.0)
+  - WTAutoLayoutExtensions (1.0.1)
 
 DEPENDENCIES:
   - WTAutoLayoutExtensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTAutoLayoutExtensions: 838d97516e4b616177b0c41045165bf0b2569927
+  WTAutoLayoutExtensions: 99dddb95836a6d71b6313ca285fccc8c116e56b5
 
 PODFILE CHECKSUM: e4b15e664c7f2bdcccb14fc960aa35d88724dd81
 
