@@ -3,12 +3,13 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-osx_image: xcode8
+osx_image: xcode8.3
 # cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+podfile: Example/Podfile
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
+- pod install --project-directory=Example
 script:
 - xcodebuild clean test -workspace Example/WTAutoLayoutExtensions.xcworkspace -scheme WTAutoLayoutExtensions-Example -destination 'platform=iOS Simulator,name=iPhone 6S' ONLY_ACTIVE_ARCH=NO | xcpretty
+#- pod repo update
 - pod lib lint
