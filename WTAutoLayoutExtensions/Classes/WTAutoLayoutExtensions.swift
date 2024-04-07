@@ -50,6 +50,21 @@ public extension UIView {
     ///
     public static let standardValue: CGFloat = 8
 
+    /// Performs three very basic and very common constraints operations, namely,
+    /// turn off the translation of autoresizing masks into constraints, set the
+    /// content compression resistance priorities for each direction, and set the
+    /// content hugging priorities for each directions.
+    ///
+    /// - SeeAlso:
+    ///     setDefaultContentCompressionPriorities()
+    ///     setDefaultContentHuggingPriorities()
+    ///
+    func setupBasicConstraints() {
+        translatesAutoresizingMaskIntoConstraints = false
+        setDefaultContentCompressionPriorities()
+        setDefaultContentHuggingPriorities()
+    }
+
     /// Sets up priorities for the view's content compression resistance along both
     /// axes to 999, which is almost required but gives a little breathing room in
     /// order to avoid potential conflicts.
@@ -57,20 +72,20 @@ public extension UIView {
     /// Obviously, these may need to be changed on a case-by-case basis but this
     /// instance method takes care of the most common scenario.
     ///
-    public func setupCommonContentCompressionResistancePriorities() {
+    func setDefaultContentCompressionPriorities() {
         setContentCompressionResistancePriority(999, for: .horizontal)
         setContentCompressionResistancePriority(999, for: .vertical)
     }
 
     /// Sets up priorities for the view's content hugging property along both axes to
-    /// `UILayoutPriorityDefaultLow`.
+    /// `UILayoutPriorityDefaultHigh`.
     ///
     /// Obviously, these may need to be changed on a case-by-case basis but this
     /// instance method takes care of the most common scenario.
     ///
-    public func setupCommonContentHuggingPriorities() {
-        setContentHuggingPriority(UILayoutPriorityDefaultLow, for: .horizontal)
-        setContentHuggingPriority(UILayoutPriorityDefaultLow, for: .vertical)
+    func setDefaultContentHuggingPriorities() {
+        setContentHuggingPriority(UILayoutPriorityDefaultHigh, for: .horizontal)
+        setContentHuggingPriority(UILayoutPriorityDefaultHigh, for: .vertical)
     }
 
     /// This method pins a view's edges to its superview's edges, with given
@@ -460,6 +475,8 @@ public extension UIView {
         case .lessThanOrEqual:
             c = dimensionalAnchor.constraint(lessThanOrEqualToConstant: constant)
         }
+
+        c.isActive = false
         c.priority = priority
         c.isActive = active
         return c
@@ -498,6 +515,8 @@ public extension UIView {
                                               multiplier: multiplier,
                                               constant: constant)
         }
+
+        c.isActive = false
         c.priority = priority
         c.isActive = active
         return c
@@ -532,6 +551,8 @@ public extension UIView {
             c = positionalAnchor1.constraint(lessThanOrEqualTo: positionalAnchor2,
                                              constant: constant)
         }
+
+        c.isActive = false
         c.priority = priority
         c.isActive = active
         return c
@@ -622,11 +643,11 @@ public enum AnchorType {
 
     func sameType(as other: AnchorType) -> Bool {
         switch (self, other) {
-        case (.xAxis(_), .xAxis(_)):
+        case (.xAxis, .xAxis):
             return true
-        case (.yAxis(_), .yAxis(_)):
+        case (.yAxis, .yAxis):
             return true
-        case (.dimension(_), .dimension(_)):
+        case (.dimension, .dimension):
             return true
         case (.none, .none):
             return true
@@ -637,7 +658,7 @@ public enum AnchorType {
 
     var isXAxis: Bool {
         switch self {
-        case .xAxis(_):
+        case .xAxis:
             return true
         default:
             return false
@@ -655,7 +676,7 @@ public enum AnchorType {
 
     var isYAxis: Bool {
         switch self {
-        case .yAxis(_):
+        case .yAxis:
             return true
         default:
             return false
@@ -673,7 +694,7 @@ public enum AnchorType {
 
     var isDimension: Bool {
         switch self {
-        case .dimension(_):
+        case .dimension:
             return true
         default:
             return false
@@ -725,6 +746,7 @@ extension UIView: WTAutoLayoutExtensionsAware {}
 
 extension WTAutoLayoutExtensionsAware where Self: UIView {
 
+    // swiftlint:disable cyclomatic_complexity
     public func anchorType(for attribute: NSLayoutAttribute) -> AnchorType {
         switch attribute {
         case .centerX:
@@ -771,6 +793,7 @@ extension WTAutoLayoutExtensionsAware where Self: UIView {
             return .none
         }
     }
+    // swiftlint:enable cyclomatic_complexity
 
 }
 
@@ -805,6 +828,6 @@ extension WTAutoLayoutExtensionsAware where Self: UILayoutGuide {
             return .none
         }
     }
-    
+
 }
 

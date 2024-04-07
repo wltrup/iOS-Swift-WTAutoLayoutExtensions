@@ -242,10 +242,6 @@ it, simply add the following line to your Podfile:
 pod "WTAutoLayoutExtensions"
 ```
 
-## Author
-
-Wagner Truppel, trupwl@gmail.com
-
 ## License
 
 **WTAutoLayoutExtensions** is available under the MIT license. See the LICENSE file for more info.
